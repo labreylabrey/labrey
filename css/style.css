@@ -26,16 +26,18 @@
 a {
     text-decoration: none;
     color: #000000;
+    transition: all 0.2s linear;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     color: #f2f2f2;
     cursor: pointer;
 }
 
-a:active {
+a:focus, a:active {
     color: #000000;
+    transition: all 0.2s linear;
 }
 
 
@@ -53,7 +55,7 @@ a:active {
   }
 
   iframe {
-    width: 90vw;
+    width: 100vw;
     height: 50vh;
     border-style: none;
 }
@@ -141,5 +143,6 @@ a.mail:hover {
     }
     .bottom p {
         font-size: 1.2em;
-    }
+    } 
         }
+
