@@ -133,17 +133,13 @@ a.mail:hover {
 
     .video {
         padding-bottom: 10px;
+        padding-top: 5px;
       }
 
     p {
         margin: 0 auto;
     }
-
-    .video {
-        padding-top: 20px;
-    }
-
     .bottom p {
         font-size: 1.2em;
-    } 
+    }
         }
